@@ -18,7 +18,7 @@ let email = document.getElementById('email');  let pass = document.getElementByI
 
   if(mail==="" || lock===""){
     alert('please fill in all the details !')
-  }else if(mail.includes('@') &&   mail.includes('.') && lock.length > 6 ){
+  }else if(mail.includes('@') &&   mail.includes('.') && lock.length >= 6 ){
     alert('login successful !')
   
   loginpage.style.display = 'none';
